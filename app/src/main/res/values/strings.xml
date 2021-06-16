@@ -1,0 +1,58 @@
+<resources xmlns:font-size="urn:oasis:names:tc:xliff:document:1.2" xmlns:mso-list="http://schemas.android.com/tools" xmlns:o="http://schemas.android.com/apk/res-auto" xmlns:text-indent="http://schemas.android.com/apk/res/android">
+    <string name="app_name">Smart Psychiatric</string>
+
+    <string name="title_activity_devisepage">devisepage</string>
+    <string name="dummy_button">Dummy Button</string>
+
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+
+    <integer name="totalatmpt">0</integer>
+    <string name="title_activity_admin_panal">admin_panal</string>
+    <string name="title_home">Home</string>
+
+
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+
+    <string name="information_page"><font color="black" size="20">Do you know what  Depression is? </font>
+        \nDepression is the world’s leading cause of disability. It is the most burning issue in the world. Depression is a complex clinical entity that can pose challenges for clinicians regarding both accurate diagnosis and effective timely treatment. Depression is a major cause of psychological illness in all over the world
+It is clear that depression affects not only the life of the person who suffers from the disorder, but also the lives of family and friends and depression ultimately affects society as a whole. Means it is effecting the whole peoples around the person who is facing this suffer 3.8% of the world’s population is affected by depression. About 25% of patients admitted to hospitals due to depression actually suffer from psychotic depression. Young adults aged 18-22 are the most likely age group to suffer from depression. 19.7% of people of UK aged 16 and over showed symptoms of anxiety or depression. Around 6.7% of American adults have experienced depression. Total economic burden brought about by depression is $210.5 billion. Approximately 35% of adults who experienced a major depressive episode didn’t receive treatment. India is the most depressed country.
+       \n <font color="black" size="28">Symptoms? </font>
+\n>	Depression mood
+\n>  Loss of interest or pleasure in usual activities\n>  Significant changes in weight and appetite\n>  Insomnia or hypersomnia\n>  Psychomotor agitation or retardation
+\n>	Increase fatigue and loss of energy
+\n>	Feelings of self-reproach, worthlessness or inappropriate guilt
+\n>	Slowed thinking or impaired concentration
+\n>	Suicide attempts or suicidal ideation.
+        \n
+        </string>
+
+
+    ///////////////////////////////
+
+
+    <string name="sign_up">SIGN UP!</string>
+    <string name="mail_address">Mail Address</string>
+    <string name="password">Password</string>
+    <string name="ok">OK</string>
+    <string name="already_a_member">Already a member?</string>
+    <string name="sign_in">SIGN IN!</string>
+    <string name="forget_your_password">Forget your password?</string>
+    <string name="reset_my_password">RESET MY PASSWORD</string>
+    <string name="create_profile">CREATE PROFILE</string>
+    <string name="name">Name:</string>
+    <string name="enter_your_name">Enter your name</string>
+    <string name="surname">Surname:</string>
+    <string name="enter_your_surname">Enter your surname</string>
+    <string name="phone_number">Phone Number:</string>
+    <string name="enter_your_phone_number">Enter your phone number</string>
+    <string name="e_mail">E-mail:</string>
+    <string name="email_address">Email Address</string>
+    <string name="profile">Profile</string>
+    <string name="dies">###</string>
+    <string name="log_out">Log Out</string>
+
+
+</resources>

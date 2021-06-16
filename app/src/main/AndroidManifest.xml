@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="my.personal.psychiatrist">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <application
+        android:icon="@drawable/icon_tansperent_bg"
+        android:label="Smart Psychiatric"
+        android:roundIcon="@drawable/icon_flat_white_bg"
+        android:screenOrientation="portrait"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+
+        tools:ignore="AllowBackup,GoogleAppIndexingWarning,LockedOrientationActivity">
+        <activity android:name=".ui.remedies.RemediesReadActivity" />
+        <activity android:name=".ui.remedies.RemediesActivity" />
+        <activity android:name=".ui.play.HistoryActivity" />
+        <activity android:name=".ui.play.PlacesActivity" />
+        <activity android:name=".ui.play.ResultActivity" />
+        <activity
+            android:name=".ui.main.SplashActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppFullScreenTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.auth.LoginActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.main.HomeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.doctors.DoctorsListActivity"
+            android:parentActivityName=".ui.main.HomeActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ui.doctors.DoctorAppointment"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ui.main.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.main.InformationActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".ui.play.AccessoriesActivity" />
+        <activity android:name=".ui.play.NatureActivity" />
+        <activity android:name=".ui.play.PetsActivity" />
+        <activity android:name=".ui.play.ColorActivity" />
+        <activity android:name=".ui.play.StatementActivity" />
+        <activity android:name=".ui.auth.ResetPsd" />
+        <activity
+            android:name=".ui.auth.RegisterActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.auth.ProfileActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+
+    </application>
+
+</manifest>

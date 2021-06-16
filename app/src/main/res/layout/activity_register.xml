@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_blue_flat1"
+    tools:context=".ui.auth.RegisterActivity">
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp"
+        android:fontFamily="@font/montebold"
+        android:gravity="bottom"
+        android:text="Smart Psychiatric App"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <include
+        android:id="@+id/toolbarR"
+        layout="@layout/bar_layout" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/loadingimg"
+        android:layout_width="match_parent"
+        android:layout_height="272dp"
+        android:layout_marginTop="150dp"
+        android:background="@color/common_google_signin_btn_text_dark_default"
+        android:src="@drawable/loading"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:layout_below="@id/toolbarR"
+        android:layout_marginTop="-5dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montebold"
+            android:text="Register"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/r_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ "
+            android:layout_margin="5dp"
+            android:textSize="14sp"
+            android:hint="Username"
+            android:textColorHint="@color/black_overlay"
+            app:met_floatingLabel="normal"
+            tools:ignore="DuplicateIds" />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/r_PhoneNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:digits="0123456789"
+            android:hint="Phone Number"
+            android:textSize="14sp"
+            android:inputType="phone"
+            android:textColorHint="@color/black_overlay"
+            app:met_floatingLabel="normal"/>
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/r_Age"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:hint="Age"
+            android:textSize="14sp"
+            android:inputType="numberSigned"
+            android:textColorHint="@color/black_overlay"
+            app:met_floatingLabel="normal"
+            tools:ignore="DuplicateIds" />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/r_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:hint="Email"
+            android:textSize="14sp"
+            android:inputType="textEmailAddress"
+            android:textColorHint="@color/black_overlay"
+            app:met_floatingLabel="normal" />
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/r_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:hint="Password"
+            android:textSize="14sp"
+            android:inputType="textPassword"
+            android:textColorHint="@color/black_overlay"
+            app:met_floatingLabel="normal" />
+
+        <Spinner
+            android:id="@+id/r_gender"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_margin="5dp"
+            android:hint="Enter your gender"
+            android:textColorHint="@color/overlay_dark_90" />
+
+        <Button
+            android:id="@+id/btn_register"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/bt_rounded_corners"
+            android:fontFamily="@font/font26"
+            android:onClick="onRegisterClick"
+            android:text="Register"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</RelativeLayout>

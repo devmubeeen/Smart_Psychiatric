@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "760164991464",
+    "firebase_url": "https://personal-psychiatrist-35d00.firebaseio.com",
+    "project_id": "personal-psychiatrist-35d00",
+    "storage_bucket": "personal-psychiatrist-35d00.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:760164991464:android:f5d7589add836513d7a45d",
+        "android_client_info": {
+          "package_name": "my.personal.psychiatrist"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "760164991464-usl626tlsjoqah6slfd3ao767tcjd1ta.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRy_-hRbSOAd3ZWYYO-sCRWCcRzcSM1OY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "760164991464-usl626tlsjoqah6slfd3ao767tcjd1ta.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
